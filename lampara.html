@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La lampara no funciona</title>
+</head>
+<body>
+
+<h1>La lampara no funciona</h1>
+
+<div id="pregunta1">
+  <p>¿Está enchufada?</p>
+  <button onclick="verificarEnchufe('si')">Sí</button>
+  <button onclick="verificarEnchufe('no')">No</button>
+</div>
+
+<div id="pregunta2" style="display: none;">
+  <p>¿Foco quemado?</p>
+  <button onclick="verificarFoco('si')">Sí</button>
+  <button onclick="verificarFoco('no')">No</button>
+</div>
+
+<div id="respuesta"></div>
+
+<script src="lampara.js"></script>
+</body>
+</html>
+
+
